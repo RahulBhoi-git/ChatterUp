@@ -1,0 +1,45 @@
+# ChatterUp 💬
+
+ChatterUp is a real-time chat application built with **Node.js**, **Express**, **Socket.IO**, and **MongoDB**. It supports user avatars, chat history persistence, typing indicators, and a responsive modern interface with dark mode support.
+
+## ✨ Features
+
+- ✅ Real-time messaging using WebSockets (Socket.IO)
+- ✅ User avatars with image upload
+- ✅ Persistent chat history with MongoDB
+- ✅ Connected users sidebar with live user count
+- ✅ Typing indicators
+- ✅ Responsive UI (desktop + mobile)
+- ✅ Dark mode toggle
+- ✅ Clean, modular code structure
+
+---
+
+## 🖥️ Tech Stack
+
+- **Frontend**: HTML, CSS (with dark mode & responsive design), Vanilla JS
+- **Backend**: Node.js, Express.js, Socket.IO
+- **Database**: MongoDB Atlas
+- **File Upload**: Multer
+- **Others**: dotenv, mongoose
+
+---
+
+## 📁 Project Structure
+
+
+---
+
+## 🚀 How to Run Locally
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/chatterup.git
+   cd chatterup
+
+npm install
+
+PORT=3100
+MONGO_URL=<your-mongodb-atlas-url>
+npm start
+http://localhost:3100
